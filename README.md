@@ -17,7 +17,7 @@ Bitwise operations can be applied between the contents of the 2 pointers. The re
 | `<` and `>`| Move the first pointer to the left and right respectively|
 | `{` and `}`| Move the second pointer to the left and right respectively|
 |`^`| Apply a bitwise xor operation between the content of the two pointers and override the content of the first pointer with the result|
-|`|`|Apply a bitwise or operation between the content of the two pointers and override the content of the first pointer with the result|
+|`\|`|Apply a bitwise or operation between the content of the two pointers and override the content of the first pointer with the result|
 |`&`|Apply a bitwise and operation between the content of the two pointers and override the content of the first pointer with the result|
 |`@`|Swap the first and second tapes (and their pointers)|
 |`+` and `-`| Increase/decrease the size of both pointers|
