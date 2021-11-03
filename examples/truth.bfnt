@@ -1,0 +1,21 @@
+>>+~-+++++++<< 
+Put ascii of 0 onto first tape
+
+@* 
+Get input character into second tape
+
+^
+Check if the characters are equal
+If they are a zero is put onto the tape otherwise there will be a non zero value on the first tape
+
+[@
+If that value is not zero switch tapes
+
+>>[-]+[,] 
+Move to the first 1 in the binary of 0 and decrease the pointer size to 1 and continuously print the 1 as a digit 
+
+]
+End of loop
+
+@. 
+Otherwise switch tapes and print the 0 once
