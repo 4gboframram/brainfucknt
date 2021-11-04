@@ -5,6 +5,8 @@ Brainfuckn't is an esolang created by me (4gboframram) that is similar to brainf
 The name came from a conversation where I was asking for name suggestions and someone suggested "not a brainfuck derivative." However, a joke language with that name already existed. So, the intellectual that I am came up with "brainfuckn't"
 
 ### Language Specification
+A slightly more formal specification can be found on the [language's wiki page](https://esolangs.org/wiki/Brainfuckn%27t)
+
 Brainfuckn't is a tape-based esolang where there are two tapes with binary cells and resizing pointers with linked sizes (when one resizes the other does too).
 
 When the pointers resize, they expand/contract from the right.
